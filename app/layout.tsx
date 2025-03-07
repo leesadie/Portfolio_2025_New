@@ -20,7 +20,9 @@ export default function RootLayout({
       <body
         className={font_reg.className}
       >
-        <Navbar />
+        <div className="hidden md:block">
+          <Navbar />
+        </div>
         {children}
       </body>
     </html>

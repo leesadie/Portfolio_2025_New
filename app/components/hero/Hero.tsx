@@ -11,7 +11,7 @@ const Hero = () => {
     const router = useRouter();
 
     return (
-        <div>
+        <div className="overflow-x-hidden">
             {/* Main landing section */}
             <section id="top" className="h-screen w-screen flex flex-col justify-center items-center">
                 <div className="flex flex-row gap-4">
@@ -49,7 +49,7 @@ const Hero = () => {
             </section>
 
             {/* Selected work section */}
-            <section id="selected-work" className="h-auto w-screen flex justify-center">
+            <section id="selected-work" className="h-auto w-screen flex justify-center bg-zinc-50">
                 <div className="flex flex-col mx-72 mt-20">
                     <div className="flex flex-row gap-10">
                         <Image 
@@ -67,7 +67,7 @@ const Hero = () => {
                                 Developing and testing an end-to-end AI for medical imaging workflow
                             </div>
                             <div className="flex flex-row group"
-                                onClick={() => {}}
+                                onClick={() => router.push('/imaging')}
                             >
                                 <div className="text-zinc-400 text-base cursor-pointer group-hover:opacity-50 transition duration-200 ease-in">
                                     Read more
@@ -92,7 +92,7 @@ const Hero = () => {
                                 Writing scripts to collect and analyze time in range data for type 1 diabetes
                             </div>
                             <div className="flex flex-row group"
-                                onClick={() => {}}
+                                onClick={() => router.push('/timeinrange')}
                             >
                                 <div className="text-zinc-400 text-base cursor-pointer group-hover:opacity-50 transition duration-200 ease-in">
                                     Read more
@@ -117,7 +117,7 @@ const Hero = () => {
                                 Building a web app with location-based AR for forest bathing
                             </div>
                             <div className="flex flex-row group"
-                                onClick={() => {}}
+                                onClick={() => router.push('/forestar')}
                             >
                                 <div className="text-zinc-400 text-base cursor-pointer group-hover:opacity-50 transition duration-200 ease-in">
                                     Read more
@@ -135,7 +135,7 @@ const Hero = () => {
                     <div className="text-zinc-700 text-xl">
                         Research
                     </div>
-                    <hr className="text-zinc-300 mt-5"/>
+                    <hr className="text-zinc-200 mt-5"/>
                     <div 
                         className="text-base py-6 group hover:bg-zinc-100 ease-in-out duration-300 transition"
                     >
@@ -151,7 +151,7 @@ const Hero = () => {
                             In Progress · Affiliated with Mayo Clinic Platform
                         </div>
                     </div>
-                    <hr className="text-zinc-300"/>
+                    <hr className="text-zinc-200"/>
                     <div 
                         className="text-base py-6 group hover:bg-zinc-100 ease-in-out duration-300 transition"
                     >
@@ -169,7 +169,7 @@ const Hero = () => {
                             In Progress · Affiliated with BC Children's Hospital Research Institute
                         </div>
                     </div>
-                    <hr className="text-zinc-300"/>
+                    <hr className="text-zinc-200"/>
                     <a target="_blank" rel="noopener noreferrer" href="files/URTC2024Camera.pdf">
                         <div 
                             className="text-base py-6 group hover:bg-zinc-100 ease-in-out duration-300 transition cursor-pointer"
@@ -187,7 +187,7 @@ const Hero = () => {
                             </div>
                         </div>
                     </a>
-                    <hr className="text-zinc-300"/>
+                    <hr className="text-zinc-200"/>
                     <a target="_blank" rel="noopener noreferrer" href="files/AAAI_UC_Proposal.pdf">
                         <div 
                             className="text-base py-6 group hover:bg-zinc-100 ease-in-out duration-300 transition cursor-pointer"
@@ -205,7 +205,7 @@ const Hero = () => {
                             </div>
                         </div>
                     </a>
-                    <hr className="text-zinc-300"/>
+                    <hr className="text-zinc-200"/>
                     <a target="_blank" rel="noopener noreferrer" href="files/HCI_BCI_Lit_Review.pdf">
                         <div 
                             className="text-base py-6 group hover:bg-zinc-100 ease-in-out duration-300 transition cursor-pointer"
@@ -223,7 +223,7 @@ const Hero = () => {
                             </div>
                         </div>
                     </a>
-                    <hr className="text-zinc-300"/>
+                    <hr className="text-zinc-200"/>
                 </div>
                 <div className="flex flex-col mx-72 pb-6">
                     <div className="flex flex-row items-center justify-between">

@@ -1,5 +1,10 @@
 import localFont from 'next/font/local'
 
+export const font_light = localFont({
+    src: './Sequel Sans Book Disp.ttf',
+    display: 'swap'
+})
+
 export const font_reg = localFont({
     src: './Sequel Sans Roman Disp.ttf',
     display: 'swap'
