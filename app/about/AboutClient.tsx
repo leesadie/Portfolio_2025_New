@@ -66,10 +66,10 @@ const AboutClient = () => {
                     </div>
                     <Image 
                         src='/images/about_ballet.svg'
-                        alt="about_mayo"
+                        alt="about_ballet"
                         height={280}
                         width={280}
-                        className="rounded-xs"
+                        className="rounded-xs object-cover"
                     />
                 </div>
             </div>
