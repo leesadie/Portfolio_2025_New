@@ -135,7 +135,7 @@ const Hero_Sm = () => {
                         </div>
                     </div>
                     <hr className="text-zinc-300"/>
-                    <a target="_blank" rel="noopener noreferrer" href="files/URTC2024Camera.pdf">
+                    <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/10937534">
                         <div 
                             className="text-base py-4 group hover:bg-zinc-100 ease-in-out duration-300 transition"
                         >
