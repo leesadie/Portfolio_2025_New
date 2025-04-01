@@ -43,7 +43,7 @@ const Hero_Sm = () => {
                         alt="mcp"
                         height={350}
                         width={350}
-                        className="rounded-xs pt-10"
+                        className="rounded-xs pt-10 hover:opacity-75 transition duration-200 ease-in"
                     />
                     <div className="text-zinc-400 text-base pt-4">
                         Mayo Clinic Platform · Summer 2024
@@ -64,7 +64,7 @@ const Hero_Sm = () => {
                         alt="mcp"
                         height={350}
                         width={350}
-                        className="rounded-xs pt-10"
+                        className="rounded-xs pt-10 hover:opacity-75 transition duration-200 ease-in"
                     />
                     <div className="text-zinc-400 text-base pt-4">
                         BCCHR · 2023-2024
@@ -85,7 +85,7 @@ const Hero_Sm = () => {
                         alt="mcp"
                         height={350}
                         width={350}
-                        className="rounded-xs pt-10"
+                        className="rounded-xs pt-10 hover:opacity-75 transition duration-200 ease-in"
                     />
                     <div className="text-zinc-400 text-base pt-4">
                         Emerging Media Lab · Summer 2023

@@ -57,7 +57,8 @@ const Hero = () => {
                             alt="mcp"
                             height={400}
                             width={400}
-                            className="rounded-xs"
+                            className="rounded-xs hover:opacity-75 transition duration-200 ease-in cursor-pointer"
+                            onClick={() => router.push('/imaging')}
                         />
                         <div className="flex flex-col gap-3">
                             <div className="text-zinc-400 text-base">
@@ -82,7 +83,8 @@ const Hero = () => {
                             alt="tir"
                             height={400}
                             width={400}
-                            className="rounded-xs"
+                            className="rounded-xs hover:opacity-75 transition duration-200 ease-in cursor-pointer"
+                            onClick={() => router.push('/timeinrange')}
                         />
                         <div className="flex flex-col gap-3">
                             <div className="text-zinc-400 text-base">
@@ -107,7 +109,8 @@ const Hero = () => {
                             alt="foretar"
                             height={400}
                             width={400}
-                            className="rounded-xs"
+                            className="rounded-xs hover:opacity-75 transition duration-200 ease-in cursor-pointer"
+                            onClick={() => router.push('/forestar')}
                         />
                         <div className="flex flex-col gap-3">
                             <div className="text-zinc-400 text-base">
