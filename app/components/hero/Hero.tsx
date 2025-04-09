@@ -33,10 +33,10 @@ const Hero = () => {
                     Cognitive science & data science
                 </div>
                 <div className="text-5xl text-zinc-700">
-                    student at UBC in Vancouver, CA.
+                    student at UBC, focused on data &
                 </div>
                 <div className="text-5xl text-zinc-700">
-                    Focused on data & emerging tech.
+                    emerging tech for human health.
                 </div>
                 <div className="absolute bottom-6 flex flex-col items-center group text-zinc-800">
                     <Link href="#selected-work" className="text-base cursor-pointer group-hover:opacity-50 transition duration-200 ease-in">

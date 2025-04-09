@@ -18,140 +18,94 @@ const AboutClient = () => {
                     Lab
                 </Link>
             </div>
-            <div className="text-zinc-400 text-2xl md:mt-20 mt-12">
-                More about me
-            </div>
-            <div className="text-zinc-700 md:text-2xl text-base pt-2">
-                I’m currently a junior at the University of British Columbia studying cognitive science with a minor in data science. 
-                Interested in building and evaluating applications of data and emerging technology.
-            </div>
-            <div className="flex flex-col gap-4 pt-4">
-                <div className="flex md:flex-row flex-col justify-between">
-                    <div>
-                        <div className="text-zinc-400 md:text-xl pt-2">
-                            Previously
-                        </div>
-                        <div className={`text-zinc-700 md:text-xl pl-2 ${font_light.className}`}>
-                            <div className="pt-2">
-                                Intern @ Mayo Clinic Platform
-                            </div>
-                            <div className="pt-2">
-                                RA @ BC Children’s Hospital Research Institute
-                            </div>
-                            <div className="pt-2">
-                                Software Developer @ UBC Emerging Media Lab
-                            </div>
-                            <div className="pt-2">
-                                Deep Learning Researcher @ UBC MINT
-                            </div>
-                            <div className="pt-2">
-                                Data Science Consultant @ 180 Degrees Consulting
-                            </div>
-                        </div>
-                    </div>
+            <div className="flex flex-col md:h-screen md:justify-center md:items-center mt-12 md:mt-0">
+                <div className="flex flex-col justify-left items-left pb-4">
                     <Image 
                         src='/images/about_mayo.svg'
                         alt="about_mayo"
-                        height={280}
-                        width={280}
-                        className="rounded-xs object-cover hidden md:block md:w-72"
+                        height={360}
+                        width={360}
+                        className="md:hidden rounded-xs"
                     />
                 </div>
-                <div className="flex md:flex-row flex-col justify-between pt-4">
+                <div className="flex md:flex-row flex-col gap-10 justify-between">
                     <div>
-                        <div className="text-zinc-400 md:text-xl md:pt-2">
-                            Outside work & school
+                        <div className="text-zinc-400 md:text-2xl text-xl">
+                            More about me
                         </div>
-                        <div className={`text-zinc-700 md:text-xl pl-2 ${font_light.className}`}>
-                            <div className="pt-2">
-                                Dancing & teaching ballet @ UBC Ballet
-                            </div>
-                            <div className="pt-2">
-                                Improving my cooking
-                            </div>
-                            <div className="pt-2">
-                                Running at sunrise more
-                            </div>
-                            <div className="pt-2">
-                                Continuing to learn new things
-                            </div>
+                        <div className="text-zinc-700 md:text-2xl text-base pt-2">
+                            I’m currently a junior at the University of British Columbia studying cognitive science with a minor in data science. 
+                            Interested in building and evaluating applications of data and emerging technology to advance human health.
+                        </div>
+                        <div className="text-zinc-700 md:text-2xl text-base pt-4">
+                            Outside of work and school, you can find me cooking, running, and continuing to learn new things.
+                        </div>
+                        <div className="flex flex-row gap-2">
+                            <a target="_blank" rel="noopener noreferrer" href="files/Sadie_Lee_Resume.pdf">
+                                <div
+                                    className="
+                                        text-zinc-200
+                                        md:text-base
+                                        text-sm
+                                        bg-zinc-700
+                                        outline
+                                        outline-neutral-900
+                                        outline-[1px]
+                                        rounded-full 
+                                        py-2
+                                        px-3 
+                                        md:w-[145px]
+                                        w-[130px]
+                                        cursor-pointer
+                                        hover:bg-white
+                                        hover:text-zinc-700
+                                        transition
+                                        duration-200 
+                                        ease-in
+                                        mt-8
+                                    "
+                                >
+                                    View my resume
+                                </div>
+                            </a>
+                            <a href="/lab">
+                                <div
+                                    className="
+                                        text-zinc-700
+                                        md:text-base
+                                        text-sm
+                                        bg-white
+                                        outline
+                                        outline-neutral-900
+                                        outline-[1px]
+                                        rounded-full 
+                                        py-2
+                                        px-3 
+                                        md:w-[100px]
+                                        w-[90px]
+                                        cursor-pointer
+                                        hover:bg-zinc-700
+                                        hover:text-zinc-200
+                                        transition
+                                        duration-200 
+                                        ease-in
+                                        mt-8
+                                    "
+                                >
+                                    See my lab
+                                </div>
+                            </a>
                         </div>
                     </div>
-                    <a target="_blank" rel="noopener noreferrer" href="files/Sadie_Lee_Resume.pdf">
-                        <div
-                            className="
-                                text-zinc-200
-                                md:text-base
-                                text-sm
-                                bg-zinc-700
-                                outline
-                                outline-neutral-900
-                                outline-[1px]
-                                rounded-full 
-                                py-2
-                                px-3 
-                                md:w-[145px]
-                                w-[130px]
-                                cursor-pointer
-                                hover:bg-white
-                                hover:text-zinc-700
-                                transition
-                                duration-200 
-                                ease-in
-                                mt-4
-                                md:hidden
-                            "
-                        >
-                            View my resume
-                        </div>
-                    </a>
-                    <div className="flex flex-row gap-2 md:gap-0 pt-4 md:pt-0 pb-8 md:pb-0">
-                        <Image 
-                            src='/images/about_ballet.svg'
-                            alt="about_ballet"
-                            height={280}
-                            width={280}
-                            className="rounded-xs object-cover md:pt-0 pt-6 w-40 h-40 md:w-72 h-auto"
-                        />
-                        <Image 
-                            src='/images/about_mayo.svg'
-                            alt="about_mayo"
-                            height={280}
-                            width={280}
-                            className="rounded-xs object-cover md:hidden pt-6 w-40 h-40"
-                        />
-                    </div>
+                    <Image 
+                        src='/images/about_new.svg'
+                        alt="about_mayo"
+                        height={380}
+                        width={380}
+                        className="-mt-10 hidden md:block"
+                    />
                 </div>
             </div>
-            <a target="_blank" rel="noopener noreferrer" href="files/Sadie_Lee_Resume.pdf">
-                <div
-                    className="
-                        text-zinc-200
-                        md:text-base
-                        text-sm
-                        bg-zinc-700
-                        outline
-                        outline-neutral-900
-                        outline-[1px]
-                        rounded-full 
-                        py-2
-                        px-3 
-                        md:w-[145px]
-                        w-[130px]
-                        cursor-pointer
-                        hover:bg-white
-                        hover:text-zinc-700
-                        transition
-                        duration-200 
-                        ease-in
-                        mt-4
-                        hidden
-                        md:block
-                    "
-                >
-                    View my resume
-                </div>
-            </a>
         </div>
     );
 }
