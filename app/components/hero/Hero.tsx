@@ -138,6 +138,7 @@ const Hero = () => {
                     <div className="text-zinc-700 text-xl">
                         Research
                     </div>
+                    {/*
                     <hr className="text-zinc-200 mt-5"/>
                     <div 
                         className="text-base py-6 group hover:bg-zinc-100 ease-in-out duration-300 transition"
@@ -154,7 +155,8 @@ const Hero = () => {
                             In Progress · Affiliated with Mayo Clinic Platform
                         </div>
                     </div>
-                    <hr className="text-zinc-200"/>
+                    */}
+                    <hr className="text-zinc-200 mt-5"/>
                     <div 
                         className="text-base py-6 group hover:bg-zinc-100 ease-in-out duration-300 transition"
                     >

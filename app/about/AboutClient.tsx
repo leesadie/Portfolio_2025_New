@@ -67,7 +67,7 @@ const AboutClient = () => {
                                     View my resume
                                 </div>
                             </a>
-                            <a href="/lab">
+                            <a target="_blank" rel="noopener noreferrer" href="mailto:leesadie025@gmail.com">
                                 <div
                                     className="
                                         text-zinc-700
@@ -80,8 +80,8 @@ const AboutClient = () => {
                                         rounded-full 
                                         py-2
                                         px-3 
-                                        md:w-[100px]
-                                        w-[90px]
+                                        md:w-[110px]
+                                        w-[100px]
                                         cursor-pointer
                                         hover:bg-zinc-700
                                         hover:text-zinc-200
@@ -91,7 +91,7 @@ const AboutClient = () => {
                                         mt-8
                                     "
                                 >
-                                    See my lab
+                                    Contact me
                                 </div>
                             </a>
                         </div>

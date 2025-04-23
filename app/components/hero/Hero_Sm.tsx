@@ -108,6 +108,7 @@ const Hero_Sm = () => {
                     <div className="text-zinc-700 text-xl">
                         Research
                     </div>
+                    {/*
                     <hr className="text-zinc-300 mt-5"/>
                     <div 
                         className="text-base py-4 group hover:bg-zinc-100 ease-in-out duration-300 transition"
@@ -121,7 +122,8 @@ const Hero_Sm = () => {
                             In Progress
                         </div>
                     </div>
-                    <hr className="text-zinc-300"/>
+                    */}
+                    <hr className="text-zinc-300 mt-5"/>
                     <div 
                         className="text-base py-4 group hover:bg-zinc-100 ease-in-out duration-300 transition"
                     >
